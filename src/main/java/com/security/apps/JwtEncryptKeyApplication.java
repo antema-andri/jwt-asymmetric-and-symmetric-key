@@ -8,10 +8,10 @@ import com.security.apps.config.RsaKeysConfig;
 
 @SpringBootApplication
 @EnableConfigurationProperties(RsaKeysConfig.class)
-public class JwtEncryptionKeyApplication {
+public class JwtEncryptKeyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JwtEncryptionKeyApplication.class, args);
+		SpringApplication.run(JwtEncryptKeyApplication.class, args);
 	}
 
 }
